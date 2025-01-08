@@ -6,7 +6,7 @@ Task 1: Write a program to check if a number is positive, negative, or zero, and
 Task 2: Write a program to check if a person is eligible to vote (age >= 18) and log the result to the console.
  */
 
-// activity1
+// 1
 let no = -1;
 if (no > 0) {
   console.log("number is positive");
@@ -14,6 +14,7 @@ if (no > 0) {
   console.log("number is negative");
 }
 
+// 2
 age = 18;
 if (age > 18) {
   console.log("person is eligible to vote");
@@ -25,6 +26,8 @@ if (age > 18) {
  Activity 2: Nested If-Else Statements
 Task 3: Write a program to find the largest of three numbers using nested if-else statements.
  */
+
+// 3
 let n1 = 10;
 let n2 = 20;
 let n3 = 30;
@@ -43,6 +46,7 @@ Task 4: Write a program that uses a switch case to determine the day of the week
 Task 5: Write a program that uses a switch case to assign a grade ('A', 'B', 'C', 'D', 'F') based on a score and log the grade to the console.
  */
 
+// 4
 let ch = 5;
 switch (ch) {
   case 1:
@@ -70,6 +74,7 @@ switch (ch) {
     console.log("Invalid choice");
 }
 
+// 5
 let grade = 3;
 
 switch (grade) {
@@ -98,6 +103,7 @@ switch (grade) {
     break;
 }
 
+// 6
 let score = 80;
 
 switch (ch) {
@@ -127,6 +133,7 @@ console.log(score);
 Task 7: Write a program to check if a year is a leap year using multiple conditions (divisible by 4, but not 100 unless also divisible by 400) and log the result to the console.
  */
 
+// 7
 // logic : leap year means has an extra day added to it making it 366 days login instead of 365 daysqo
 let year=2022
 if(year%4 && year%400)
@@ -140,7 +147,7 @@ else{
 
 
 /**
- Feature Request: ``Done``
+ Feature Request: ``->Done`<-`
 Number Check Script: Write a script that checks if a number is positive, negative, or zero using if-else statements and logs the result.
 Voting Eligibility Script: Create a script to check if a person is eligible to vote based on their age and log the result.
 Day of the Week Script: Write a script that uses a switch case to determine the day of the week based on a number (1-7) and log the day name.

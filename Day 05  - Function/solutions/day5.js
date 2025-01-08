@@ -5,6 +5,7 @@ Task 1: Check if a number is even or odd.
 Task 2: Calculate the square of a number.
  */
 
+// 1
 function number(no) {
   if (no % 2 == 0) {
     console.log("number is even");
@@ -12,15 +13,13 @@ function number(no) {
     console.log("number is odd");
   }
 }
-
 const no = number(2);
-
 console.log(no);
 
+// 2
 function square(n1, n2) {
   return n1 * n2;
 }
-
 const sq = square(2, 3);
 console.log(sq);
 
@@ -30,6 +29,7 @@ Task 3: Find the maximum of two numbers.
 Task 4: Concatenate two strings.
  */
 
+// 3
 function max2no(n1, n2) {
   if (n1 > n2) {
     return n1;
@@ -41,6 +41,7 @@ function max2no(n1, n2) {
 const max = max2no(10, 9);
 console.log(max);
 
+// 4
 function concat(n1, n2) {
   return n1 + " " + n2;
 }
@@ -54,20 +55,23 @@ Task 5: Sum of two numbers.
 Task 6: Check if a string contains a specific character.
  */
 
+// 5
 const add = (n1, n2) => {
   return n1 + n2;
 };
 
+
 const adds = add(2, 3);
 console.log(adds);
 
-const secial = (value) => {
-  if (value === `@` || value === `#`) {
-    console.log("special character");
-  } else {
-    console.log("default character");
-  }
-};
+// 6
+// const secial = (value) => {
+//   if (value === `@` || value === `#`) {
+//     console.log("special character");
+//   } else {
+//     console.log("default character");
+//   }
+// };
 
 const secials = (value,ch) => {
     if (value.includes(ch)) {
@@ -89,6 +93,7 @@ Task 7: Product of two numbers with a default value.
 Task 8: Greeting message with name and age
  */
 
+// 7
 function para(n=1)
 {
     return n;
@@ -97,6 +102,7 @@ function para(n=1)
 const output = para()
 console.log(output);
 
+// 8
 function message(name,age)
 {
     return `my name is ${name} and ${age}`
@@ -112,6 +118,7 @@ Task 9: Function that calls another function multiple times.
 Task 10: Apply two functions sequentially to a value.
  */
 
+// 9
 function anfunc() {
   return `hello`
 }

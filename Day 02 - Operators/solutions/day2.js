@@ -13,7 +13,7 @@ Task 5: Write a program to find the reminder when one number is divided by anoth
 let n1 = 10;
 let n2 = 5;
 
-// activity1
+// 1,2,3,4,5
 console.log(n1 + n2);
 console.log(n1 - n2);
 console.log(n1 * n2);
@@ -26,7 +26,7 @@ Task 6: Use the += operator to add a number to a variable and log the result to 
 Task 7: Use the -= operator to subtract a number from a variable and log the result to the console.
  */
 
-// activity2
+// 6,7
 console.log((n1 += 20));
 console.log((n1 -= 2));
 
@@ -37,7 +37,7 @@ Task 9: Write a program to compare two numbers using >= and <= and log the resul
 Task 10: Write a program to compare two numbers using == and === and log the result to the console.
  */
 
-// activity3
+//8,9,10
 
 // out comes in boolean
 
@@ -60,17 +60,19 @@ Task 12: Write a program that uses the || operator to combine two conditions and
 Task 13: Write a program that uses the ! operator to negate a condition and log the result to the console.
  */
 
-// activity4
+//11,12,13
 
 console.log(n1 && n2);
 console.log(n1 || n2);
 console.log(n1 != n2);
 
 /**
- feature request 3
  Activity 5: Ternary Operator
+
 Task 14: Write a program that uses the ternary operator to check if a number is positive or negative and log the result to the console.
  */
+
+// 14
 let no = -2;
 let result = no > 0 ? "positive" : "negative";
 console.log(result);
@@ -82,6 +84,7 @@ Comparison and Logical Operators Script: Create a script that compares two numbe
 Ternary Operator Script: Write a script that uses the ternary operator to determine if a number is positive or negative and logs the result.
 */
 
+// 1
 // feature request
 let arithmetic = {
     add:n1+n2,
@@ -98,5 +101,5 @@ console.log(`mult:${arithmetic.mult}`);
 console.log(`div:${arithmetic.div}`);
 console.log(`rem:${arithmetic.rem}`);
 
-// feature request2
+//2
 console.log(n1>n2 || n1<n2);
