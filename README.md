@@ -15,4 +15,6 @@ Day 06 - Array
 
 Day 07 - Objects
 
+Day 08 - ES6features
+
 Day 09 - Dom
