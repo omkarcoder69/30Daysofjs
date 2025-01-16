@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Day 9: DOM Manipulation  -->
+
+    <!-- Activity 1: Selecting and Manipulating Elements -->
+
+    <!-- Task 1: Select an HTML element by its ID and change its text content. -->
+    <h1 id="text-content">Hello world</h1>
+    <button id="btn">Click me</button>
+
+    <!-- Task 2: Select an HTML element by its class and change its background color. -->
+    <h1 id="change-back">Change background</h1>
+    <button id="btn-2">Click me</button>
+
+    <!-- Activity 2: Creating and Appending Elements -->
+
+    <!-- Task 3: Create a new div with text and append it to the body. -->
+    <div>Omkar is cool</div>
+
+    <!-- Task 4: Create a new li element and add it to an existing ul. -->
+
+    <ul id="mylist">
+      <li>First</li>
+      <li>Second</li>
+      <li>Third</li>
+      <li>four</li>
+    </ul>
+
+    <!-- Activity 5: Event Handling -->
+
+    <!-- 
+     Task 9: Add a click event listener to a button to change paragraph text.
+      Task 10: Add a mouseover event listener to change an element's border color.
+    -->
+      <h1 id="change-event">Omkar is cool</h1>
+      <button id="event-listner">Click me</button>
+  </body>
+
+  <script>
+    //1
+    document.getElementById(`btn`).addEventListener(`click`, function () {
+      const text = document.getElementById(`text-content`);
+
+      text.textContent = "hello omkar";
+    });
+
+    // 2
+    document.getElementById(`btn-2`).addEventListener(`click`, function () {
+      const change = document.getElementById(`change-back`);
+
+      change.style.backgroundColor = `royalblue`;
+      change.style.color = `white`;
+    });
+
+    // 3
+    const newdiv = document.createElement(`div`);
+
+   //  newdiv.textContent = "Hello stranger";
+
+    document.body.appendChild(newdiv);
+
+    // 4
+    const ul = document.getElementById(`mylist`);
+    const li = document.createElement(`li`);
+
+    li.textContent = "five";
+
+    ul.appendChild(li);
+
+   //  5
+    document.getElementById(`event-listner`).addEventListener(`click`,function(){
+      const event = document.getElementById(`change-event`);
+      event.textContent="Omkar is dashing"
+    })
+  </script>
+</html>
